@@ -18,11 +18,11 @@ pipeline {
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
                 # sudo conda activate mlip-project
-                pip install -U pytest --break-system-packages
+                # pip install -U pytest --break-system-packages
+                sudo /home/nisheetd/anaconda3/condabin/conda init
 
                 # TODO Complete the command to run pytest
-                # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
-                pytest
+                # sudo /home/nisheetd/anaconda3/condabin/conda run -n mlip-lab6-nisheetd pytest
 
                 # echo 'pytest not runned'
                 # exit 1 #comment this line after implementing Jenkinsfile
