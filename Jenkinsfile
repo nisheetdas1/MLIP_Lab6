@@ -17,7 +17,7 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
-                sudo conda activate mlip-project
+                # sudo conda activate mlip-project
                 pip install -U pytest
 
                 # TODO Complete the command to run pytest
