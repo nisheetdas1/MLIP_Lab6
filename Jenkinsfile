@@ -22,7 +22,7 @@ pipeline {
                 sudo /home/nisheetd/anaconda3/condabin/conda init
 
                 # TODO Complete the command to run pytest
-                sudo /home/nisheetd/anaconda3/condabin/conda run -n mlip-lab6-nisheetd pytest
+                sudo /home/nisheetd/anaconda3/condabin/conda run -n mlip-lab pytest
 
                 # echo 'pytest not runned'
                 # exit 1 #comment this line after implementing Jenkinsfile
